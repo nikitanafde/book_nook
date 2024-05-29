@@ -21,9 +21,10 @@ if read_books < 2:
 else: 
   print("You are a bookworm!")
 
-# These lines of code create a list of books and then uses each item in a print statement
+# These lines of code create a list of books, prints it in a for loop, and then uses each item in a print statement
 book_list = ["Pride & Prejudice", "Harry Potter", "Lyrical Ballads", "American Prometheus"]
-print(f"Book List: {book_list}")
+for x in book_list: 
+  print(x)
 zero_book = book_list[0]
 print(f"Fiction Book: {zero_book}")
 second_book = book_list[1]
@@ -33,8 +34,9 @@ print(f"Poetry Book: {third_book}")
 fourth_book = book_list[3]
 print(f"Nonfiction Book: {fourth_book}")
 
-# These lines of code creates a tuple of authors and uses one item in a print statement
+# These lines of code creates a tuple of authors, prints it in a for loop and uses one item in a print statement
 authors_tuple = ("Jane Austen", "J.K. Rowling", "Wordsworth & Coleridge", "Kai Bird")
-print(f"Authors: {authors_tuple}")
+for x in authors_tuple: 
+  print(x)
 a_author = authors_tuple[0]
 print(f"Author of Little Women: {a_author}")
